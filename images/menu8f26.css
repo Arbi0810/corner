@@ -1,0 +1,234 @@
+/* Background */
+
+html {
+    background: url(menu_backgrounda78c.jpg?v=0.0.0) no-repeat center center fixed;
+    background-color: white;
+    background-size: cover;
+}
+
+/* Menu Navigation START */
+
+a {
+    text-decoration: none !important;
+}
+
+.download-menus-mobile {
+    font-family: "futurastd", sans-serif;
+    text-transform: uppercase;
+    background-color: #005951;
+    color: white;
+    padding: 10px;
+    display: block;
+    width: 350px;
+	height: 40px;
+    margin: 0 auto;
+}
+
+.download-menus-mobile:hover {
+    color: white;
+}
+
+.download-menu {
+	background-color: #005951;
+	color: white !important;
+	margin-bottom: 5px;
+	font-size: 0.8em;
+	vertical-align: middle;
+}
+
+.download-menu-printable {
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	padding: 0 !important;
+}
+
+.download-menu-type {
+	padding: 0 !important;
+	text-align: center;
+}
+
+/* XSmall Devices Tablets */
+@media (max-width: 991px) {
+    .download-menus-mobile {
+		padding: 0px;
+    }
+	.download-menu-type {
+		padding: 10px 0 0 0 !important;
+		text-align: left;
+	}
+}
+
+
+.menu-navigation {
+    /*position: fixed;*/
+    float: left;
+    margin-top: -20px;
+    top: 90px;
+    padding-top: 40px;
+    background-color: white;
+    text-align: center;
+    width: 170px;
+    margin-left: -125px;
+    box-shadow: 2px 2px 5px lightgrey;
+    font-family: "Futura", sans-serif !important;
+}
+
+    .menu-navigation ul {
+        padding-left: 0;
+        list-style-type: none;
+    }
+ 
+    .menu-navigation li.selected a {
+        background: #15605b;
+        color: #fff !important;
+        border-radius: 0;
+    }
+    
+    .menu-navigation a {
+        display: inline-block;
+        padding: 5px 5px;
+        width: 100%;
+        color: #005951;
+        text-decoration: none;
+    }
+
+        .menu-navigation a:hover,
+        .menu-navigation a:focus,
+        .menu-navigation a.selected {
+            background: #15605b;
+            color: #fff;
+            border-radius: 0;
+            text-decoration: none;
+            outline: none;
+        }
+
+    .menu-navigation > div > a {
+        background-color: rgba(255, 255, 255, 1);
+        font-weight: bold;
+    }
+
+    .menu-last-section {
+        padding-bottom: 400px;
+    }
+
+    .sections section {
+        margin-bottom: 40px;
+    }
+
+/* Menu Navigation END */
+
+/* Menu START */
+
+.subcategory-name,
+.item-name {
+    font-family: "futurastd", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+.item-name {
+    font-size: 1.4em;
+}
+
+.subcategory-name {
+    font-size: 2.5em;
+    color: #005951;
+    text-transform: uppercase;
+}
+
+.subcategory-description {
+    margin-bottom: 20px;
+}
+
+.menu > p {
+    text-transform: lowercase;
+}
+
+.menu-header-image {
+    display: block;
+    margin: auto;
+}
+
+/* Menu END*/
+
+/* Show Image Icon START */
+
+.image-icon {
+    color: black;
+    font-size: 0.9em;
+    cursor: pointer;
+
+    background: url(menupage_icon_camera.png) no-repeat center center;
+    background-size: 14px 11px;
+    width: 15px;
+    height: 15px;
+}
+
+.image-icon:hover {
+    color: black;
+}
+
+#modal-close-button {
+    background-image: url(modal_close_icon.png);
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    display: inline;
+
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    z-index: 3200;
+    cursor: pointer;
+}
+
+.modal-content {
+    top: 150px;
+}
+
+/* Show Image Icon END */
+
+/********************************/
+/*       RESPONSIVE STYLES      */
+/********************************/
+
+.main-container .menu {
+    padding: 0px 100px;
+}
+.menu-navigation {
+    margin-left: -120px;
+}
+
+/* Medium Devices */
+@media (max-width: 1199px) {
+    .main-container .menu {
+        padding: 0px 180px;
+    }
+    .menu-navigation {
+        margin-left: -25px;
+    }
+}
+
+/* Small Devices Tablets */
+@media (max-width: 969px) {
+    .main-container .menu {
+        padding: 0px 25px;
+    }
+}
+
+/* XSmall Devices Tablets */
+@media (max-width: 767px) {
+    .main-container .menu {
+        padding: 0;
+    }
+}
+
+.sections p {
+	margin: 0;
+}
+
+
+
+

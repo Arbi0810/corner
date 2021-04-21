@@ -1,0 +1,600 @@
+/* Background */
+
+@import url("location-specials2e13.css?v18");
+
+html {
+    background: url(locations_backgrounda78c.jpg?v=0.0.0) no-repeat center center fixed;
+    background-color: white;
+    background-size: cover;
+}
+
+body {
+    background-color: white;
+}
+
+.todays-hours {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+/* Hours Data List */
+.dl-hours {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dl-hours > dt {
+    float: left;
+}
+
+.dl-hours > dd {
+    margin-left: 125px;
+}
+
+
+dl.dl-hours {
+    font-family: futura;
+    font-size: 0.667em;
+    font-weight: bold;
+}
+
+dl.dl-hours dt {
+    float: left;
+    margin-right: 5%;
+    max-width: 40%;
+    font-weight: bold;
+}
+
+dl.dl-hours dd {
+    margin-left: 30%;
+    margin-bottom: 4px;
+}
+
+dl.dl-hours dd::after {
+    content: " ";
+    display: block;
+    clear: left;
+}
+
+/* Locations Page */
+.directions-link {
+    font-size: 1.4rem;
+    margin-top: 5px;
+}
+
+.miles-away {
+    margin-top: 5px;
+}
+
+.loc-header {
+    margin-bottom: 10px;
+}
+
+.loc-search .location-finder-lg {
+    background-repeat: no-repeat;
+    background-size: 22px 45px !important;
+    float: none !important;
+}
+
+.or-text {
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Location State Heading */
+.loc-state h4 {
+    font-family: futura;
+    text-transform: uppercase;
+    color: black;
+    font-family: "futurabold", sans-serif;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/* Location State List */
+ul.loc-state-list {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-family: "futurabold", sans-serif;
+    font-weight: normal;
+    columns: 5;
+    webkit-columns: 5;
+    -moz-columns: 5;
+}
+
+ul.loc-state-list a {
+    color: #005951;
+    text-decoration: none;
+}
+
+ul.loc-state-list a:hover {
+    color: #005951;
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+/* Locations/All */
+.loc-box a.btn {
+    border: thin solid black;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    color: white !important;
+    font-size: 0.611em;
+    font-weight: bolder;
+    background: black;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.loc-box a.btn:hover {
+    background: black;
+    color: white;
+}
+
+/* Location Bounding Box */
+.loc-box {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.loc-box h1 {
+    font-family: futurabold;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-size: 3.2em;
+}
+
+.loc-box hr {
+    border: 1px solid black;
+}
+
+.loc-box h4 a,
+.loc-box h4 a:link,
+.loc-box h4 a:visited,
+.loc-box h4 a:hover,
+.loc-box h4 a:active {
+    font-family: "futurastd", sans-serif;
+    text-transform: uppercase;
+    color: #005951;
+    text-decoration: none;
+}
+
+.loc-details-sink {
+    position: relative;
+    bottom: 0;
+    margin-top: 10px;
+}
+
+.loc-details-sink a {
+    text-decoration: none !important;
+}
+
+/* Location Box */
+.loc-results-box-wrapper {
+    height: 250px;
+}
+
+.loc-results-footer {
+    position: relative;
+    bottom: 5px;
+}
+
+.loc-amenities {
+    margin-bottom: 0;
+    font-family: 'futurastd';
+    font-size: 0.72em;
+}
+
+/* Locations Nearby Box */
+.loc-nearby-box .dl-hours {
+    font-size: .889em;
+}
+
+.loc-nearby-box .loc-details-sink p {
+    font-size: .889em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.loc-col {
+    border-top: 1px solid lightgrey;
+    padding-top: 20px;
+}
+/* Location/All Box*/
+.loc-all-box .loc-details-info {
+    margin-bottom: 20px;
+    /* min-height: 310px; */
+}
+
+.loc-details-info.not-found {
+    min-height: 0px !important;
+}
+
+.loc-all-box .loc-all-info {
+    /* margin-bottom: 30px !important; */
+    /* min-height: 325px !important; */
+}
+
+.loc-all-box .loc-all-header {
+    margin-bottom: 0;
+}
+
+.loc-all-box .dl-hours {
+    font-size: 0.72em;
+}
+
+.loc-nearby-box .loc-details-info {
+    margin-bottom: 30px;
+    min-height: 375px;
+}
+
+.loc-nearby-box .loc-nearby-body {
+    margin-bottom: 20px;
+}
+
+.no-address-two {
+    margin: 0;
+}
+
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.loc-details-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-family: 'futurastd';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.loc-details-info a,
+.loc-details-info a:link,
+.loc-details-info a:visited,
+.loc-details-info a:hover,
+.loc-details-info a:active {
+    color: #11605b;
+}
+
+.loc-details-info a:active,
+.loc-details-info a:focus {
+    outline-color: rgb(77, 144, 254);
+}
+
+.loc-details-info .loc-details-btns a,
+.loc-details-info .loc-details-btns a:link,
+.loc-details-info .loc-details-btns a:visited,
+.loc-details-info .loc-details-btns a:hover,
+.loc-details-info .loc-details-btns a:active {
+    width: 100%;
+    text-decoration: none;
+}
+
+.loc-icon {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+    display: block;
+    font-weight: normal;
+    margin-bottom: 3px;
+}
+
+.loc-icon-delivery-only {
+    background-image: url(delivery_only_icon_web.png);
+}
+
+.loc-icon-loyalty {
+    background-image: url(servicesicons_loyalty.png);
+}
+
+.loc-icon-delivery {
+    background-image: url(servicesicons_delivery.png);
+}
+
+.loc-icon-fast-and-fresh {
+    background-image: url(servicesicons_fastfresh.png);
+}
+
+.loc-icon-drive-thru {
+    background-image: url(servicesicons_drive_thru.png);
+}
+
+.loc-icon-catering {
+    background-image: url(servicesicons_catering.png);
+}
+
+.loc-icon-mobile-ordering {
+    background-image: url(servicesicons_mobileordering.png);
+}
+
+.loc-icon-meeting-rooms {
+    background-image: url(servicesicons_meetingrooms.png);
+}
+
+.loc-icon-wifi {
+    background-image: url(servicesicons_wifi.png);
+}
+
+.loc-icon-patio-or-outdoor-seating {
+    background-image: url(servicesicons_patiooutsideseating.png);
+}
+
+.loc-icon-home {
+    background-image: url('icon_home.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.loc-icon-home-address {
+    margin-top: 0;
+    font-size: 0.72em !important;
+}
+
+.loc-icon-phone {
+    background-image: url('icon_phone.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 0.72em;
+}
+
+.loc-icon-clock {
+    background-image: url('icon_clock.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.loc-social-wrap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url(background_crinkledpaper_mob.jpg) no-repeat center center fixed;
+    background-color: transparent;
+    background-size: cover;
+}
+
+a.follow-us-ig {
+    color: black;
+    text-decoration: none;
+    font-family: "futurabook", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 10px;
+    text-decoration: underline !important;
+}
+
+a.follow-us-ig:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.ig-box {
+    padding: 15px;
+}
+
+.loc-details-specials-wrap {
+    min-height: 350px;
+    background-color: #d34330;
+    color: white;
+}
+
+.loc-details-specials-wrap a,
+.loc-details-specials-wrap a:hover,
+.loc-details-specials-wrap a:active,
+.loc-details-specials-wrap a:visited,
+.loc-details-specials-wrap a:focus {
+    color: white;
+}
+
+.map-canvas {
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+#loc-about-this {
+    background: url(img_location_about.png) no-repeat top left;
+    background-color: #d34330;
+    margin-top: 50px;
+}
+
+#loc-about-this p {
+    padding-top: 70px;
+    text-align: left;
+    text-decoration: none;
+    font-family: "futurabook", sans-serif;
+    font-size: 1.3em;
+}
+
+#loc-local-specials {
+    background: url(img_location_specials.png) no-repeat center center;
+    background-color: #d34330;
+    background-size: 100%;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#loc-local-specials .loc-trans {
+    padding: 100px 70px 70px 70px;
+}
+
+#loc-local-specials .loc-trans p {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "futurabook", sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    height: 125px;
+    overflow: hidden;
+}
+
+.loc-box .locations-buttons a.btn {
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.loc-box .locations-buttons .location-finder-input {
+    border: thin solid #11605b;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+}
+
+.loc-box .locations-buttons .locations-search-button {
+    font-size: 1.27em !important;
+}
+
+.loc-box .locations-buttons .locations-search-button-form {
+    font-size: 1.4em !important;
+    padding: 10px 16px !important;
+}
+
+.loc-box .locations-find-button {
+    font-size: 3.57em !important;
+}
+
+.location-finder-input-lg {
+    height: 46px !important;
+    font-size: 1.4em !important;
+    padding: 10px 16px 10px 16px !important;
+    margin-left: 0px !important;
+}
+
+.input-group-addon-btn:hover,
+.input-group-addon-btn:focus {
+    color: white !important;
+    background: black;
+}
+
+/********************************/
+/*       RESPONSIVE STYLES      */
+/********************************/
+
+/* Medium Devices */
+@media (max-width: 1199px) {
+    #loc-local-specials .loc-trans {
+        padding: 100px 90px 70px 90px;
+    }
+}
+
+/* Small Devices Tablets */
+@media (max-width: 969px) {
+    .loc-nearby-box .loc-details-info {
+        margin-bottom: 25px;
+        min-height: 420px;
+        max-height: 550px;
+    }
+
+    #loc-local-specials {
+        height: 390px;
+    }
+
+    #loc-local-specials .loc-trans {
+        padding: 115px 25px 45px 25px;
+    }
+
+    #loc-local-specials .loc-trans p {
+        height: 160px;
+    }
+
+    /* Location State List */
+    ul.loc-state-list {
+        columns: 3;
+        webkit-columns: 3;
+        -moz-columns: 3;
+    }
+}
+
+/* XSmall Devices */
+@media (max-width: 767px) {
+    .loc-nearby-box .loc-details-info {
+        margin-bottom: 25px;
+        min-height: 375px;
+        max-height: 550px;
+    }
+
+    #loc-local-specials {
+        height: 385px;
+    }
+
+    #loc-local-specials .loc-trans {
+        padding: 135px 40px 0px 40px;
+    }
+
+    #loc-local-specials .loc-trans p {
+        height: 165px;
+    }
+
+    /* Location State List */
+    ul.loc-state-list {
+        columns: 2;
+        webkit-columns: 2;
+        -moz-columns: 2;
+    }
+
+    .loc-box h1 {
+        font-size: 40px;
+    }
+}
+
+/* XXSmall Devices */
+@media (max-width: 414px) {
+    #loc-about-this {
+        background-size: 100%;
+    }
+
+    #loc-local-specials {
+        height: 200px;
+    }
+
+    #loc-local-specials .loc-trans {
+        padding: 60px 25px 45px 25px;
+    }
+
+    #loc-local-specials .loc-trans p {
+        height: 165px;
+    }
+
+    /* Location State List */
+    ul.loc-state-list {
+        columns: 1;
+        webkit-columns: 1;
+        -moz-columns: 1;
+    }
+}

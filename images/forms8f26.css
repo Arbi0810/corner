@@ -1,0 +1,376 @@
+/* Background */
+
+html {
+    background: url(feedback_backgrounda78c.jpg?v=0.0.0) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+label {
+    font-size: 1.08em;
+}
+
+#main-container-wrap {
+    font-family: "futurabook", sans-serif;
+}
+
+.form-control {
+    font-size: 1em !important;
+}
+
+img.banner {
+    width: 100%;
+}
+
+img.bubble {
+    float: right;
+    top: 26px;
+    margin-right: 25px;
+    margin-top: -55px;
+    position: relative;
+}
+
+.form-eclub {
+    margin-top: -24px;
+}
+
+hr {
+    background: url(img_slashes_black.png) repeat-x top left;
+    border: 0 !important;
+    height: 10px !important;
+    margin: 0px !important;
+}
+
+h1 {
+    font-family: 'bebas' !important;
+    font-size: 2.3em;
+    color: #15605B !important;
+    text-align: left !important;
+    font-weight: bolder !important;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+    h1.promotion-h1 {
+        text-transform: none !important;
+        font-size: 2.6em;
+        color: black !important;
+        text-align: center !important;
+        padding-top: 10px;
+    }
+
+h2 {
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 1em !important;
+    margin-bottom: 30px !important;
+    margin-top: 10px !important;
+}
+
+    h2.promotion-h2 {
+        text-align: center;
+        padding: 10px 190px 0px 10px;
+    }
+
+h4 {
+    font-family: 'futurabook' !important;
+    text-align: left !important;
+    letter-spacing: 1px;
+    font-size: 1.5em !important;
+}
+
+p {
+    font-weight: 500;
+}
+
+    p.disclaimer {
+        font-weight: bold;
+    }
+
+    p.disclaimer-eclub {
+        padding: 10px 50px 10px 50px;
+    }
+
+div.disclaimer-promo-padding{
+    padding-top: 10px;
+}
+
+div.disclaimer-promo-padding2 {
+    padding-top: 20px;
+}
+
+div.disclaimer-promo h2{
+    padding-top: 10px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+    div.disclaimer-promo p {
+        color: black;
+        padding: 0 10px 0 10px;
+        font-size: .87em;
+    }
+
+    div.disclaimer-promo a {
+        color: black;
+        font-weight: bold;
+    }
+
+div.disclaimer-promo-desktop {
+    text-align: left;
+}
+
+div.disclaimer-promo-desktop p {
+        padding-right: 20px;
+        position: absolute;
+        width: 240px;
+        margin-top: -181px;
+        margin-left: 710px;
+    }
+
+div.disclaimer-promo-desktop-image{
+    margin-top:-23px;
+    position:relative;
+}
+
+div.disclaimer-promo-tablet p {
+    font-size: medium;
+    margin-top: -120px;
+    padding-right: 55px;
+    padding-left: 50px;
+}
+
+p.disclaimer-tablet {
+    padding-top: 15px;
+}
+
+div.disclaimer-promo-mobile p {
+    margin-top: -9.1em;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: .86em;
+}
+
+div.disclaimer-promo-mobile p small{
+    font-size: xx-small;
+}
+
+p.disclaimer-mobile {
+    padding-top: 15px;
+}
+
+.yes-no-options {
+    display: block;
+}
+
+form .input-group-btn {
+    font-size: 1em !important;
+}
+
+button.feedback-btn {
+    border: thin solid black;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    color: white !important;
+    width: 150px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+    background: black;
+    text-transform: uppercase;
+}
+
+    button.feedback-btn:hover {
+        background: black;
+        color: white;
+    }
+
+
+button.loc-btn {
+    background-color: black;
+    color: white !important;
+    border: 1.4px solid black;
+}
+
+button.modal-loc-btn {
+    border: thin solid black;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    color: white !important;
+    font-weight: bolder;
+    background: black;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+    button.modal-loc-btn:hover,
+    button.modal-loc-btn:active {
+        background: black;
+        color: white;
+    }
+
+.btn-file {
+    border: thin solid black;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    color: white !important;
+    width: 150px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+    background: black;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+#file-name {
+    margin-top: 10px;
+}
+
+#NearStoresInfo button {
+    font-size: 0.72em;
+    width: initial;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid black !important;
+    border-radius: 0 !important;
+}
+
+.checkbox-options {
+    padding-bottom: 20px;
+}
+
+.custom-checkbox {
+    padding: 6px 12px 6px 0;
+}
+
+input[type="checkbox"] {
+    border: 0;
+    padding: 0;
+    position: absolute;
+    left: -1000em;
+}
+
+    input[type="checkbox"] + input[type="hidden"] + span:before {
+        content: '\e157';
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        font-size: 1em;
+        display: inline-block;
+        width: 1.15em;
+        height: 1.15em;
+        vertical-align: -0.1em;
+        margin-right: 0.25em;
+    }
+
+    input[type="checkbox"]:checked + input[type="hidden"] + span:before {
+        content: '\e067';
+    }
+
+    input[type="checkbox"]:focus ~ span {
+        border: 1px solid rgba(0, 85, 78, 0.808);
+    }
+
+input[type="radio"] {
+    border: 0;
+    padding: 0;
+    position: absolute;
+    left: -1000em;
+}
+
+    input[type="radio"] + span:before {
+        content: '\e157';
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        font-size: 1em;
+        display: inline-block;
+        width: 1.15em;
+        height: 1.15em;
+        vertical-align: -0.1em;
+        margin-right: 0.25em;
+    }
+
+    input[type="radio"]:checked + span:before {
+        content: '\e067';
+    }
+
+    input[type="radio"]:focus + span {
+        border: 1px solid rgba(0, 85, 78, 0.808);
+    }
+
+fieldset {
+    border: none;
+}
+
+form {
+    /*padding: 10px 0px;*/
+    height: 100%;
+    overflow: hidden;
+}
+
+.modal-dialog {
+    overflow-y: initial !important;
+}
+
+.modal-body {
+    height: 450px;
+    overflow-y: auto;
+    font-size: 1em;
+}
+
+.modal-content {
+    border-radius: 0 !important;
+}
+
+.modal-header {
+    background-image: url(header_background.png);
+    background-color: #757b36;
+}
+
+    .modal-header > button {
+        color: white;
+        opacity: 0.9;
+    }
+
+.modal-dialog {
+    top: 80px;
+}
+
+.modal-title {
+    color: white !important;
+}
+
+#LocationInfo {
+    margin-bottom: 20px;
+}
+
+.validationErrorMessage {
+    color: #a20000;
+    font-weight: bold;
+}
+
+#locationFeedWrap {
+    height: 120px;
+}
+
+#locationEcafeWrap {
+    height: 100px;
+}
+
+#mobile-wrap {
+    background-color: rgb(192,192,192);
+    padding: 20px 0 0 0;
+    margin-bottom: 15px;
+}

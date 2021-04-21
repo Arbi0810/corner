@@ -1,0 +1,20 @@
+﻿.scroll-to-top {
+    background-image: url(scroll_to_top.png);
+    background-color: transparent;
+    background-size: cover;
+    z-index: 100;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    width: 130px;
+    height: 60px;
+    border: none;
+    opacity: .7;
+}
+
+@media (max-width:767px) {
+    .scroll-to-top {
+        width: 100px;
+        height: 40px;
+    }
+}
